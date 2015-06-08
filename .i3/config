@@ -149,7 +149,7 @@ bar {
 	position top
         status_command i3status
 }
-
+#below only necessary for macbook pro
 exec synclient TapButton1=0
 exec synclient TapButton2=0
 exec synclient TapButton3=0
