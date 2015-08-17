@@ -149,6 +149,10 @@ bar {
 	position top
         status_command i3status
 }
+#ctrl+alt+l = gnome lockscreen
+bindsym Control+Mod1+l exec --no-startup-id gnome-screensaver-command -l
+
+
 #below only necessary for macbook pro
 exec synclient TapButton1=0
 exec synclient TapButton2=0
